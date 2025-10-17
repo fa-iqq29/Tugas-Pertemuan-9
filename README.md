@@ -10,7 +10,7 @@ Hal ini memberikan fleksibilitas lebih dalam mengatur tata letak, parameter, dan
 
 ## Pembuatan laporan tidak menggunakan plugin bawaan NetBeans, melainkan dilakukan sepenuhnya di JasperSoft Studio, hal ini berlandaskan pada sumber pengajaran yang saya cari berikut: https://youtu.be/ODNQN6vZp04?si=Ndvhqd150a1lAHvj
 
-Alur kerja laporan:
+Sehingga alur kerja laporan:
 
 - Desain report dibuat di JasperSoft Studio → disimpan sebagai .jrxml
 
