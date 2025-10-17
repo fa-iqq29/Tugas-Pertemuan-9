@@ -6,6 +6,20 @@ Aplikasi dikembangkan di NetBeans IDE dan terkoneksi ke database PostgreSQL.
 Laporan didesain menggunakan JasperSoft Studio, bukan plugin bawaan NetBeans.
 Hal ini memberikan fleksibilitas lebih dalam mengatur tata letak, parameter, dan tampilan laporan.
 
+# 🧾 Catatan Penting
+
+## Pembuatan laporan tidak menggunakan plugin bawaan NetBeans, melainkan dilakukan sepenuhnya di JasperSoft Studio, hal ini berlandaskan pada sumber pengajaran yang saya cari berikut: https://youtu.be/ODNQN6vZp04?si=Ndvhqd150a1lAHvj
+
+Alur kerja laporan:
+
+- Desain report dibuat di JasperSoft Studio → disimpan sebagai .jrxml
+
+- File .jrxml dikompilasi → menghasilkan file .jasper
+
+- File .jasper diimpor ke proyek NetBeans
+
+- File .jasper dipanggil dalam kode Java menggunakan JasperFillManager dan JasperViewer
+
 # 🧩 Deskripsi Proyek
 
 Aplikasi ini menampilkan data dari tabel mata_kuliah dan menyediakan fitur:
@@ -31,20 +45,6 @@ Aplikasi ini menampilkan data dari tabel mata_kuliah dan menyediakan fitur:
 - JasperSoft Studio untuk desain report (.jrxml)
 
 - iText 4.2.1, commons-beanutils, commons-collections, commons-digester, commons-logging
-
-# 🧾 Catatan Penting
-
-## Pembuatan laporan tidak menggunakan plugin bawaan NetBeans, melainkan dilakukan sepenuhnya di JasperSoft Studio.
-
-Alur kerja laporan:
-
-- Desain report dibuat di JasperSoft Studio → disimpan sebagai .jrxml
-
-- File .jrxml dikompilasi → menghasilkan file .jasper
-
-- File .jasper diimpor ke proyek NetBeans
-
-- File .jasper dipanggil dalam kode Java menggunakan JasperFillManager dan JasperViewer
 
 # 🧰 Langkah-Langkah Pembuatan Report
 
