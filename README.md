@@ -56,7 +56,7 @@ Alur kerja laporan:
 
 - Ekstrak dan jalankan JasperSoft Studio (tidak perlu instalasi tambahan jika menggunakan versi portable).
 
-![Mengunduh Aplikasi JasperSoft Studio](P9 PBO/Screenshot 2025-10-17 191149.png)
+![Mengunduh Aplikasi JasperSoft Studio](P9%PBO/Screenshot%2025-10-17%191149.png)
 
 2. Membuat File Report (.jrxml)
 
