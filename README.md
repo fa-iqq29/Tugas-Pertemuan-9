@@ -56,7 +56,7 @@ Alur kerja laporan:
 
 - Ekstrak dan jalankan JasperSoft Studio (tidak perlu instalasi tambahan jika menggunakan versi portable).
 
-![Mengunduh Aplikasi JasperSoft Studio](P9%PBO/Screenshot%2025-10-17%191149.png)
+![Mengunduh Aplikasi JasperSoft Studio](https://github.com/fa-iqq29/Tugas-Pertemuan-9/blob/main/P9%20PBO/Screenshot%202025-10-17%20191149.png?raw=true)
 
 2. Membuat File Report (.jrxml)
 
@@ -76,11 +76,15 @@ Alur kerja laporan:
 
 - Simpan file sebagai ReportMataKuliah.jrxml
 
+![Membuat Report](https://github.com/fa-iqq29/Tugas-Pertemuan-9/blob/main/P9%20PBO/Screenshot%202025-10-17%20191801.png?raw=true)
+
 3. Meng-Compile File JRXML ke JASPER
 
 - Klik kanan file .jrxml → pilih Compile Report
 
 - Hasilnya akan muncul file baru dengan ekstensi .jasper
+
+![Compile File menjadi .jasper](https://github.com/fa-iqq29/Tugas-Pertemuan-9/blob/main/P9%20PBO/Screenshot%202025-10-17%20192058.png?raw=true)
 
 4. Mengintegrasikan ke Proyek Java (NetBeans)
 
@@ -96,7 +100,11 @@ Alur kerja laporan:
 
   - postgresql-42.5.4.jar
 
-- Panggil report di Java menggunakan kode
+![Salin file .jasper ke netbeans dan Tambahkan Library](https://github.com/fa-iqq29/Tugas-Pertemuan-9/blob/main/P9%20PBO/Screenshot%202025-10-16%20143614.png?raw=true)
+
+5. Panggil report di Java pada tombol cetak menggunakan kode
+
+![Compile File menjadi .jasper](https://github.com/fa-iqq29/Tugas-Pertemuan-9/blob/main/P9%20PBO/Screenshot%202025-10-17%20192659.png?raw=true)
   
 # ▶️ Cara Menjalankan Program
 
